@@ -5,4 +5,4 @@ $('#release-info').text(album.releaseInfo);
 $('.artist').text(album.artist);
  }
  //testing//
- 
+ //more testing
