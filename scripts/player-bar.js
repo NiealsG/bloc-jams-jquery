@@ -19,6 +19,11 @@
     player.skipTo(event.target.value);
   });
 
+//Volume control event handler
+  $('#volume-control input').on('input', function (event) {
+    player.setVolume(event.target.value);
+  });
+  m
   //Previous button
   $('button#previous').on('click', function() {
     if (player.playState !== 'playing') { return; }
